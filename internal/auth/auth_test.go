@@ -16,7 +16,7 @@ func TestGetAPIKey(t *testing.T) {
 		want  want
 	}{
 		"valid": {
-			input: http.Header{"Authorization": []string{"ApiKey abc12345temp"}},
+			input: http.Header{"Authorization": []string{"ApiKey abc12345"}},
 			want: want{
 				apiKey: "abc12345",
 				err:    nil,
