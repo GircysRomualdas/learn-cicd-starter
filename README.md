@@ -1,27 +1,7 @@
-![tests status](https://github.com/GircysRomualdas/learn-cicd-starter/actions/workflows/ci.yml/badge.svg)
+# Learn CI/CD with GitHub Actions, Docker and Go
 
-# learn-cicd-starter (Notely)
+Build and test a real codebase, and then automate that same build process to deploy an application to the cloud using GitHub Actions, Docker, GCP, Cloud Run, and Turso
 
-This repo contains the starter code for the "Notely" application for the "Learn CICD" course on [Boot.dev](https://boot.dev).
+This is the starter code used in Boot.dev's [Learn CI/CD with GitHub Actions, Docker and Go](https://www.boot.dev/courses/learn-ci-cd-github-docker-golang) course.
 
-## Local Development
-
-Make sure you're on Go version 1.22+.
-
-Create a `.env` file in the root of the project with the following contents:
-
-```bash
-PORT="8080"
-```
-
-Run the server:
-
-```bash
-go build -o notely && ./notely
-```
-
-*This starts the server in non-database mode.* It will serve a simple webpage at `http://localhost:8080`.
-
-You do *not* need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
-
-Romas version of Boot.dev's Notely app.
+The starter repo for the [Learn CI/CD with GitHub Actions, Docker and Go](https://github.com/bootdotdev/learn-cicd-starter) on Boot.dev.
